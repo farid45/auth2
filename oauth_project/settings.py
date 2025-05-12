@@ -104,8 +104,8 @@ AUTHENTICATION_BACKENDS = [
 ]
 
 # Social Auth Settings
-SOCIAL_AUTH_VK_OAUTH2_KEY = '53544361'
-SOCIAL_AUTH_VK_OAUTH2_SECRET = 'YgWSI9D4UTBkbWPbAUdvs'
+SOCIAL_AUTH_VK_OAUTH2_KEY = '' #В сообщении телеграмм 
+SOCIAL_AUTH_VK_OAUTH2_SECRET = '' #В сообщении телеграмм 
 SOCIAL_AUTH_VK_OAUTH2_SCOPE = ['email']
 SOCIAL_AUTH_VK_OAUTH2_EXTRA_DATA = ['email']
 # Session settings
