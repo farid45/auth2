@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Ваш профиль</h2>
+<p>Имя пользователя: {{ user.username }}</p>
+{% if user.email %}
+<p>Email: {{ user.email }}</p>
+{% endif %}
+{% endblock %}
+{% extends "base.html" %}
+
