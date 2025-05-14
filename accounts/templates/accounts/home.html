@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GitHub OAuth</title>
+</head>
+<body>
+    {% if user.is_authenticated %}
+        <p>Добро пожаловать, {{ user.username }}!</p>
+        <a href="{% url 'logout' %}">Выйти</a>
+    {% else %}
+        <a href="{% url 'social:begin' 'github' %}">Войти через GitHub</a>
+    {% endif %}
+</body>
+</html>
